@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Carlos Reis | Desenvolvedor de Software</title>
+  <meta name="description"
+    content="Portfólio Profissional de João Carlos Reis. Desenvolvedor de Software focado em Python, JavaScript e soluções inteligentes.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Background Elements -->
+  <div class="bg-gradient"></div>
+  <div class="bg-mesh"></div>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <nav class="navbar container">
+      <div class="logo">
+        <span class="logo-text">JCR<span class="dot">.</span></span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Início</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#projetos" class="nav-link">Projetos</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+
+      <div class="nav-extra">
+        <a href="https://wa.me/5584998979071" target="_blank" class="btn btn-primary btn-sm">Bora Conversar?</a>
+        <button class="mobile-menu-btn" aria-label="Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu">
+    <button class="close-menu"><i data-lucide="x"></i></button>
+    <ul class="mobile-nav-links">
+      <li><a href="#home">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+      <div class="container hero-container">
+        <div class="hero-content" data-aos="fade-up">
+          <div class="badge">Disponível para novos projetos</div>
+          <h1 class="hero-title">João Carlos <span class="highlight">Reis</span></h1>
+          <h2 class="hero-subtitle">Desenvolvedor de Software</h2>
+          <p class="hero-description">
+            Em transição de carreira e curioso por tecnologia. Especialista em criar softwares eficientes com <span
+              class="tech">Python</span> e <span class="tech">JavaScript</span>. Transformando lógica em soluções
+            modernas.
+          </p>
+          <div class="hero-btns">
+            <a href="#projetos" class="btn btn-primary">
+              <span>Ver Projetos</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="#contato" class="btn btn-outline">Contato</a>
+          </div>
+        </div>
+        <div class="hero-visual" data-aos="zoom-in" data-aos-delay="200">
+          <div class="visual-card">
+            <div class="code-preview">
+              <pre><code><span class="k">const</span> developer = {
+  name: <span class="s">"João Carlos"</span>,
+  focus: [<span class="s">"Python"</span>, <span class="s">"JS"</span>],
+  mission: <span class="s">"Build great tech"</span>
+};</code></pre>
+            </div>
+            <div class="code-decoration"></div>
+          </div>
+        </div>
+      </div>
+      <a href="#sobre" class="scroll-down">
+        <div class="mouse"></div>
+        <span>Role para baixo</span>
+      </a>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="about section container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Minha Jornada</span>
+        <h2 class="section-title">Sobre Mim</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text" data-aos="fade-right">
+          <p>
+            Minha trajetória profissional é marcada pela versatilidade e pelo trabalho duro. Atuei em diversas áreas,
+            desde <strong>bordador</strong> até <strong>repositor</strong>, experiências que me moldaram como um
+            profissional extremamente resiliente e focado.
+          </p>
+          <p>
+            Sempre tive facilidade com o aprendizado rápido e uma disciplina inabalável. Decidi canalizar essa energia
+            para a minha verdadeira paixão: a tecnologia. Hoje, me dedico integralmente à criação de softwares, unindo
+            minha experiência anterior de atenção aos detalhes com o rigor técnico do desenvolvimento.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num">Foco</span>
+              <span class="stat-label">Em Soluções</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">Rápido</span>
+              <span class="stat-label">Aprendizado</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Dedicado</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual" data-aos="fade-left">
+          <div class="experience-card">
+            <div class="exp-icon"><i data-lucide="award"></i></div>
+            <h3>Evolução Contínua</h3>
+            <p>De setores operacionais à engenharia de software.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="skills section">
+      <div class="container">
+        <div class="section-header center" data-aos="fade-up">
+          <span class="section-tag">Expertise</span>
+          <h2 class="section-title">Tecnologias & Ferramentas</h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Python -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-icon python-icon"><i data-lucide="terminal"></i></div>
+            <h3>Python</h3>
+            <div class="skill-bar">
+              <div class="fill" style="width: 85%;"></div>
+            </div>
+          </div>
+          <!-- JS -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-icon js-icon"><i data-lucide="code-2"></i></div>
+            <h3>JavaScript</h3>
+            <div class="skill-bar">
+              <div class="fill" style="width: 80%;"></div>
+            </div>
+          </div>
+          <!-- HTML/CSS -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-icon web-icon"><i data-lucide="layout"></i></div>
+            <h3>HTML & CSS</h3>
+            <div class="skill-bar">
+              <div class="fill" style="width: 90%;"></div>
+            </div>
+          </div>
+          <!-- Streamlit -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-icon streamlit-icon"><i data-lucide="bar-chart-3"></i></div>
+            <h3>Streamlit</h3>
+            <div class="skill-bar">
+              <div class="fill" style="width: 75%;"></div>
+            </div>
+          </div>
+          <!-- APIs -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="skill-icon api-icon"><i data-lucide="webhook"></i></div>
+            <h3>APIs</h3>
+            <div class="skill-bar">
+              <div class="fill" style="width: 70%;"></div>
+            </div>
+          </div>
+          <!-- Git -->
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+            <div class="skill-icon git-icon"><i data-lucide="github"></i></div>
+            <h3>Git / GitHub</h3>
+            <div class="skill-bar">
+              <div class="fill" style="width: 85%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="projects section container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Portfólio</span>
+        <h2 class="section-title">Projetos em Destaque</h2>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Projeto 1 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-img-wrapper">
+            <img src="assets/lojaslocais.png" alt="Sistema de Pedidos">
+            <div class="project-overlay">
+              <a href="https://lojaslocais.vercel.app" target="_blank" class="btn-icon"><i
+                  data-lucide="external-link"></i></a>
+              <a href="https://github.com/joaocarlosweb/lojaslocais" target="_blank" class="btn-icon"
+                style="color: gray;"><i data-lucide="github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Lojas Locais</h3>
+            <p>Plataforma web desenvolvida para ajudar pequenos negócios locais a aumentarem sua presença digital,
+              permitindo a divulgação de produtos e serviços de forma simples, rápida e acessível. O sistema oferece uma
+              interface intuitiva e responsiva, facilitando a conexão entre clientes e estabelecimentos.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>Vercel</span>
+              <span>Supabase</span>
+              <span>WhatsApp</span>
+            </div>
+            <div class="project-links">
+              <a href="https://lojaslocais.vercel.app" target="_blank" class="link-btn">Ver Projeto <i
+                  data-lucide="chevron-right"></i></a>
+              <a href="https://github.com/joaocarlosweb/lojaslocais" target="_blank" class="link-btn github"><i
+                  data-lucide="github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projeto 2 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-img-wrapper">
+            <img src="assets/tudolista.png" alt="WhatsApp Bot">
+            <div class="project-overlay">
+              <a href="https://joaocarlosweb.github.io/todolist/" target="_blank" class="btn-icon"><i
+                  data-lucide="external-link"></i></a>
+              <a href="https://github.com/joaocarlosweb/todolist" target="_blank" class="btn-icon"><i
+                  data-lucide="github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Gerenciador de Tarefas</h3>
+            <p>Aplicação web de gerenciamento desenvolvida para organizar e controlar informações de forma prática e
+              eficiente. O sistema permite adicionar, editar e remover dados, oferecendo uma interface simples,
+              intuitiva e responsiva para facilitar o uso no dia a dia.
+            </p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://joaocarlosweb.github.io/todolist/" target="_blank" class="link-btn">Ver Projeto <i
+                  data-lucide="chevron-right"></i></a>
+              <a href="https://github.com/joaocarlosweb/todolist" target="_blank" class="link-btn github"><i
+                  data-lucide="github"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Projeto 3 -->
+        <article class="project-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-img-wrapper">
+            <img src="assets/saborebrasa.png" alt="Web Portfolio">
+            <div class="project-overlay">
+              <a href="https://joaocarlosweb.github.io/lanchonete-sistema/" target="_blank" class="btn-icon"><i
+                  data-lucide="external-link"></i></a>
+              <a href="https://github.com/joaocarlosweb/lanchonete-sistema" target="_blank" class="btn-icon"><i
+                  data-lucide="github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Sistema para Lanchonetes</h3>
+            <p>Sistema web desenvolvido para lanchonetes, permitindo que o cliente visualize o cardápio, selecione seus
+              pedidos e envie automaticamente as informações para o WhatsApp. A aplicação foi criada com foco em
+              praticidade, agilidade no atendimento e melhoria na comunicação com o cliente.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+              <span>WhatsApp</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link-btn">Ver Projeto <i data-lucide="chevron-right"></i></a>
+              <a href="#" class="link-btn github"><i data-lucide="github"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact section container">
+      <div class="contact-card" data-aos="zoom-in">
+        <div class="section-header">
+          <span class="section-tag">Conecte-se</span>
+          <h2 class="section-title text-white">Vamos construir algo incrível?</h2>
+          <p class="contact-subtitle">Estou sempre aberto a novas oportunidades e desafios técnicos.</p>
+        </div>
+
+        <div class="contact-links-grid">
+          <a href="mailto:joaocarloswebcod@gmail.com" class="contact-item">
+            <div class="icon"><i data-lucide="mail"></i></div>
+            <div class="info">
+              <span>Email</span>
+              <p>joaocarloswebcod@gmail.com</p>
+            </div>
+          </a>
+          <a href="https://wa.me/5584998979071" class="contact-item">
+            <div class="icon"><i data-lucide="message-circle"></i></div>
+            <div class="info">
+              <span>WhatsApp</span>
+              <p>(84) 99897-9071</p>
+            </div>
+          </a>
+          <a href="https://github.com/joaocarlosweb" class="contact-item">
+            <div class="icon"><i data-lucide="github"></i></div>
+            <div class="info">
+              <span>GitHub</span>
+              <p>@joaocarlos</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 João Carlos Reis. Todos os direitos reservados.</p>
+      <div class="footer-bottom">
+        <span>Desenvolvido com carinho e código.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+
+</html>
